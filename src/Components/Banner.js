@@ -16,7 +16,7 @@ const Banner=()=>{
                     <h6>SAMRIDHI TANDON</h6>
                     <h1>FRONTEND DEVELOPER</h1>
                     <button >
-                        < a href="src/Samridhi CV.pdf" download="Samridhi CV.pdf" style={{textDecoration:"none"}}>
+                        < a href="src/samridhi tandon cv.pdf" download="samridhi tandon cv.pdf" style={{textDecoration:"none"}}>
                         Download Resume
                         </a></button>
                     <div className="profiles">

@@ -5,16 +5,59 @@ import flamingo from '../Images/flamingo.png'
 import todo from '../Images/todo.png'
 import nescafe from '../Images/nescafe.png'
 import shipping from '../Images/shipping.png'
+import food from '../Images/food-web.png'
+import mcm from '../Images/mcm .png'
+import events from '../Images/events.png'
 
 const Works=()=>{
     return(
         <>
         <h1 style={{color: "#fff", textAlign:"center"}}>FEATURED WORKS</h1>
+
         <div className='all-works' id="work">
             <div className='projects'>
                
                     <div className='project-img'>
-                        <a href='https://www.tgcindia.com/test-theme-new/tgc/'>
+                        <a href='https://mcmvanlines.com.au/'>
+                        <img src={mcm} /></a>
+                    </div>
+                    <div className='content'>
+                        <h2>MCM Vanlines</h2>
+                        <span>LIVE PROJECT</span>
+                        <p>This is a user-friendly landing Page
+                            developed with html,css,jquery,javascript, bootstrap and libraries.
+                        </p>
+                        <button><a href="https://mcmvanlines.com.au/">LIVE</a></button>
+                        <button><a href='#'>CODE</a></button>
+                    </div>
+                </div>
+       
+        </div>
+        <div className='all-works' id="work">
+            <div className='projects'>
+               
+                    <div className='project-img'>
+                        <a href='https://samridhi-event-project.netlify.app/'>
+                        <img src={events} /></a>
+                    </div>
+                    <div className='content'>
+                        <h2>Event Planner</h2>
+                        <span>LIVE PROJECT</span>
+                        <p>This is a user-friendly landing Page
+                            developed with html,css,jquery,javascript, bootstrap and libraries.
+                        </p>
+                        <button><a href="https://samridhi-event-project.netlify.app/">LIVE</a></button>
+                        <button><a href='#'>CODE</a></button>
+                    </div>
+                </div>
+       
+        </div>
+
+        <div className='all-works' id="work">
+            <div className='projects'>
+               
+                    <div className='project-img'>
+                        <a href='https://tgclivewebsite.netlify.app/'>
                         <img src={tgc} /></a>
                     </div>
                     <div className='content'>
@@ -23,8 +66,28 @@ const Works=()=>{
                         <p>This is a user-friendly landing Page
                             developed with html,css,jquery,javascript, bootstrap and libraries.
                         </p>
-                        <button><a href="https://www.tgcindia.com/test-theme-new/tgc/">LIVE</a></button>
+                        <button><a href="https://tgclivewebsite.netlify.app/">LIVE</a></button>
                         <button><a href='https://github.com/Samridhiworks/tgclivewebsite'>CODE</a></button>
+                    </div>
+                </div>
+       
+        </div>
+
+        <div className='all-works'>
+            <div className='projects'>
+               
+                    <div className='project-img'>
+                        <a href='https://vidtube-mu.vercel.app/'>
+                        <img src={food} /></a>
+                    </div>
+                    <div className='content'>
+                        <h2>Food Website</h2>
+                    
+                        <p>This is a user-friendly landing Page
+                            developed with React, bootstrap and libraries.
+                        </p>
+                        <button><a href="https://react-food-web-z4g3.vercel.app/">LIVE</a></button>
+                        <button><a href='https://github.com/Samridhiworks/react-food-web/'>CODE</a></button>
                     </div>
                 </div>
        
@@ -99,7 +162,7 @@ const Works=()=>{
                         <img src={flamingo} /></a>
                     </div>
                     <div className='content'>
-                        <h2>VidTube App</h2>
+                        <h2>Flamingo Music App</h2>
                     
                         <p>This is a user-friendly landing Page
                             developed with html,css,jquery,javascript, bootstrap and libraries.

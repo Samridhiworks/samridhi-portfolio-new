@@ -77,7 +77,7 @@ const Works=()=>{
             <div className='projects'>
                
                     <div className='project-img'>
-                        <a href='https://vidtube-mu.vercel.app/'>
+                        <a href='https://react-food-web-z4g3.vercel.app/'>
                         <img src={food} /></a>
                     </div>
                     <div className='content'>

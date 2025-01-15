@@ -57,7 +57,7 @@ const Works=()=>{
             <div className='projects'>
                
                     <div className='project-img'>
-                        <a href='https://tgclivewebsite.netlify.app/'>
+                        <a href='https://samridhiworks.github.io/tgcwebsite/'>
                         <img src={tgc} /></a>
                     </div>
                     <div className='content'>
@@ -66,8 +66,8 @@ const Works=()=>{
                         <p>This is a user-friendly landing Page
                             developed with html,css,jquery,javascript, bootstrap and libraries.
                         </p>
-                        <button><a href="https://tgclivewebsite.netlify.app/">LIVE</a></button>
-                        <button><a href='https://github.com/Samridhiworks/tgclivewebsite'>CODE</a></button>
+                        <button><a href="https://samridhiworks.github.io/tgcwebsite/">LIVE</a></button>
+                        <button><a href='https://samridhiworks.github.io/tgcwebsite/'>CODE</a></button>
                     </div>
                 </div>
        

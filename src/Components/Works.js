@@ -1,5 +1,5 @@
 import React from 'react';
-import tgc from '../Images/tgc.png'
+import tgc from '../Images/tgcnew.png'
 import utube from '../Images/utube.png'
 import flamingo from '../Images/flamingo.png'
 import todo from '../Images/todo.png'
